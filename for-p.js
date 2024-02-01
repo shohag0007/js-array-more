@@ -27,9 +27,9 @@
 const nums = [23, 43, 2, 5, 366, 203, 2];
 let sumOfOdd = 0;
 let sumOfEven = 0;
- for(let i = 0; i <= nums.length; i++){
+ for(let i = 0; i < nums.length; i++){
    const x = nums[i];
-   console.log(sumOfEven);
+   
    if(x % 2 === 1){
       sumOfOdd += x;
    }
@@ -40,5 +40,5 @@ else {
  }
 
  
-//  console.log(sumOfEven);
-//  console.log(sumOfOdd);
+ console.log(sumOfEven);
+  console.log(sumOfOdd);
