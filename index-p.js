@@ -1,4 +1,7 @@
-const numbers = [12, 98, 5, 41, 23, 76, 46];
+ const numbers =[12, 34, 56, 78, 87];
+ numbers.push(11,12,13);
+ numbers.pop()
+ console.log(numbers);
+ 
 
-console.log(numbers['0, 1, 2']);
 
